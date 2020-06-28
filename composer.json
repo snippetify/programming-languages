@@ -37,9 +37,6 @@
         "phpunit/phpunit": "^6.0"
     },
     "scripts": {
-        "test": "phpunit",
-        "post-package-install": [
-            "php -r \"copy('phpunit.xml.dist', 'phpunit.xml');\""
-        ]
+        "test": "phpunit"
     }
 }
